@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "TorstenBergmann 9/14/2016 20:57",
+	"commentStamp" : "TorstenBergmann 9/15/2016 00:40",
 	"instvars" : [
-		"avatarURL",
-		"type" ],
-	"name" : "GitHubUser",
+		"name" ],
+	"name" : "GitHubObject",
 	"pools" : [
 		 ],
-	"super" : "GitHubObject",
+	"super" : "Object",
 	"type" : "normal" }

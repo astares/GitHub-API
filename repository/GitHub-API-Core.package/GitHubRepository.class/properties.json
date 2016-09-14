@@ -4,11 +4,15 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "TorstenBergmann 9/14/2016 20:57",
+	"commentStamp" : "TorstenBergmann 9/14/2016 23:39",
 	"instvars" : [
-		"avatarURL",
-		"type" ],
-	"name" : "GitHubUser",
+		"userName",
+		"url",
+		"language",
+		"cloneURL",
+		"gitURL",
+		"sshURL" ],
+	"name" : "GitHubRepository",
 	"pools" : [
 		 ],
 	"super" : "GitHubObject",
