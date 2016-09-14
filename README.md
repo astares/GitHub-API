@@ -51,7 +51,7 @@ You can check if the user is an organization or regular user:
 (GitHub userNamed: 'pharo-project') isOrganization
 ```
 
-which in the particular case returns **true** as the [Pharo-project organization has an account on GitHub](https://github.com/pharo-project).
+which in the particular case of our example returns **true** as the [Pharo-project organization has an account on GitHub](https://github.com/pharo-project).
 
 
 ## Project Structure
