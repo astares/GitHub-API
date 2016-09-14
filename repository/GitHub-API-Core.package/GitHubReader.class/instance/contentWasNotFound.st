@@ -1,0 +1,4 @@
+testing
+contentWasNotFound
+
+	^response isNotFound

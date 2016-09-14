@@ -1,0 +1,14 @@
+{
+	"category" : "GitHub-API-Core-Error Handling",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TorstenBergmann 9/14/2016 21:55",
+	"instvars" : [
+		 ],
+	"name" : "GitHubUserNotAvailable",
+	"pools" : [
+		 ],
+	"super" : "GitHubError",
+	"type" : "normal" }

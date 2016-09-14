@@ -1,0 +1,14 @@
+{
+	"category" : "GitHub-API-Core-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TorstenBergmann 9/14/2016 21:10",
+	"instvars" : [
+		 ],
+	"name" : "GitHub",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

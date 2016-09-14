@@ -1,0 +1,16 @@
+{
+	"category" : "GitHub-API-Core-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TorstenBergmann 9/14/2016 21:25",
+	"instvars" : [
+		"url",
+		"ston",
+		"response" ],
+	"name" : "GitHubReader",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
