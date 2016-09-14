@@ -1,0 +1,14 @@
+{
+	"category" : "GitHub-API-Tests-Core-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TorstenBergmann 9/14/2016 23:04",
+	"instvars" : [
+		 ],
+	"name" : "GitHubReaderTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
