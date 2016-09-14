@@ -41,6 +41,8 @@ If you have a user you can easily access the Avatar as a regular **Form** instan
 (GitHub userNamed: 'astares') avatar
 ```
 
+returning the following graphic form/picture:
+
 ![Astares User Avatar](https://avatars.githubusercontent.com/u/5980033?v=3)
 
 #### Check the user type
@@ -52,6 +54,23 @@ You can check if the user is an organization or regular user:
 ```
 
 which in the particular case of our example returns **true** as the [Pharo-project organization has an account on GitHub](https://github.com/pharo-project).
+
+### Working with a GitHub repositories of a user
+
+To access the collection of repositories for a given GitHub user you can use one of the two expressions:
+
+```Smalltalk
+(GitHubUser named: 'pharo-project') repositories
+```
+
+or
+
+```Smalltalk
+GitHub repositoriesForUser: 'pharo-project' 
+```
+
+which is a little bit shorter.
+
 
 
 ## Project Structure
