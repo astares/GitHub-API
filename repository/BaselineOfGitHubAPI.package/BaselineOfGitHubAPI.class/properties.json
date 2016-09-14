@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfGitHubAPI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TorstenBergmann 9/14/2016 23:16",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfGitHubAPI",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

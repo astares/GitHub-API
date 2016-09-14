@@ -1,0 +1,1 @@
+Baseline for GitHub API wrapper for Pharo
