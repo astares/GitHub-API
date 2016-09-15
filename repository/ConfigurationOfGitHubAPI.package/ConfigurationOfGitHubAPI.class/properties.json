@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfGitHubAPI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "TorstenBergmann 9/15/2016 08:46",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfGitHubAPI",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
