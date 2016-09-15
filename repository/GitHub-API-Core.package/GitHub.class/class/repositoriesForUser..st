@@ -4,7 +4,7 @@ repositoriesForUser: aUserName
 	
 	|reader|
 	reader :=  GitHubReader readURL: 'https://api.github.com/users/', aUserName ,'/repos'.
-	reader contentWasNotFound ifTrue: [ GitHubUserNotAvailable signal: 'User ', aUserName ,' not found on GitHub' ].
+	reader contentWasNotFound ifTrue: [ self signalUnknownUser: aUserName ].
 	^reader ston collect: [:each |
 		(GitHubRepository new)
 			userName: aUserName;	

@@ -1,0 +1,14 @@
+{
+	"category" : "GitHub-API-Core-Base - Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TorstenBergmann 9/15/2016 23:44",
+	"instvars" : [
+		"files" ],
+	"name" : "GitHubGist",
+	"pools" : [
+		 ],
+	"super" : "GitHubObject",
+	"type" : "normal" }
