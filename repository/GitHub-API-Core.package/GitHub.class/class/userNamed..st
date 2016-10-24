@@ -1,12 +1,14 @@
 accessing
-userNamed: aString 
+userNamed: aUserName 
 	"Return the GitHub user with the given name"
 	
 	|reader user|
-	reader :=  GitHubReader readURL: 'https://api.github.com/users/', aString.
-	reader contentWasNotFound ifTrue: [ GitHubUserNotAvailable signal: 'User ',aString,' not found on GitHub' ].
+	reader :=  GitHubReader readURL: 'https://api.github.com/users/', aUserName.
+	reader contentWasNotFound ifTrue: [ self signalUnknownUser: aUserName ].
+	
+	"Read the user"
 	user := GitHubUser new.
-	user name: aString.
+	user name: aUserName.
 	user avatarURL: (reader keyOrEmptyStringAt: 'avatar_url').
 	user type: (reader keyOrEmptyStringAt: 'type').
 	^user
