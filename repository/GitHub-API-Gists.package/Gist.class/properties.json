@@ -1,0 +1,31 @@
+{
+	"category" : "GitHub-API-Gists",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanLorenzano 10/24/2016 15:03",
+	"instvars" : [
+		"requestingUser",
+		"url",
+		"forksUrl",
+		"commitsUrl",
+		"id",
+		"description",
+		"public",
+		"owner",
+		"user",
+		"files",
+		"truncated",
+		"comments",
+		"commentsUrl",
+		"htmlUrl",
+		"gitPullUrl",
+		"gitPushUrl",
+		"created",
+		"updated" ],
+	"name" : "Gist",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,20 @@
+{
+	"category" : "GitHub-API-Gists",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"name",
+		"size",
+		"rawUrl",
+		"type",
+		"truncated",
+		"language",
+		"contents" ],
+	"name" : "GistFile",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
