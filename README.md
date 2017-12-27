@@ -1,5 +1,11 @@
 # GitHub-API (for Pharo)
 
+## Important note:
+there meanwhile are three wrappers available:
+1. https://balletie.github.io/GitHub/ (from Balletie, very complete)
+2. https://github.com/astares/GitHub-API (this one) 
+3. https://github.com/guillep/github-api (one from Guille)
+
 ## Introduction
 
 This project is a **GitHub API Wrapper** for [Pharo](http://www.pharo.rog) to easily access informations from GitHub right from your Pharo image.
