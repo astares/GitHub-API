@@ -4,7 +4,7 @@
 there meanwhile are three wrappers available:
 1. https://balletie.github.io/GitHub/ (from Balletie, very complete)
 2. https://github.com/astares/GitHub-API (this one) 
-3. https://github.com/guillep/github-api (one from Guille)
+3. https://github.com/guillep/github-api (one from Guille, who now bases on the one from Balletie)
 
 ## Introduction
 
